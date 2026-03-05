@@ -1,109 +1,94 @@
-# SQL Practice, Challenges & Mini Project
+# 21 Days SQL Challenge
 
-This repository represents my **structured SQL learning journey**, covering daily practice files, logic-based challenges, and a mini project.
-It is focused on building **strong SQL fundamentals**, real-world query thinking, and consistency through hands-on practice.
+## Overview
 
----
+This repository documents my **21 Days SQL Challenge**, where I practiced SQL concepts through structured daily tasks and two mini projects. The objective of this challenge was to strengthen my SQL skills, improve data analysis capabilities, and develop problem-solving techniques using real-world styled datasets.
 
-## 🚀 Overview
+## Repository Structure
 
-- Daily SQL practice files
-- Multiple challenge-based problem sets
-- Complete **21-Day SQL Challenge**
-- One mini project combining all learned concepts
-- Written with interview preparation and practical usage in mind
+```
+21 days challenge/
+│
+├── first task.sql
+├── second task.sql
+├── third task.sql
+├── ...
+├── twenty one task.sql
+│
+├── Mini project.sql
+├── mini_project.xlsx
+│
+└── MysteryWhoKilledCEO.sql
+```
 
----
+## Skills Practiced
 
-## 📂 Repository Structure
+During this challenge, the following SQL concepts were applied:
 
-Day-wise SQL practice and challenge files:
-- Day5.sql
-- day6.sql
-- day7.sql
-- Day8.sql
-- day9.sql
-- day10.sql
-- day11.sql
-- day12.sql
-- firstchallenge.sql
-- seoncchallenge.sql
-- thirdchallenfge.sql
-- 4THChallenege.sql
-- full21daychallenge.sql
-- mini project.sql
+* Data retrieval using `SELECT`
+* Data filtering using `WHERE`
+* Aggregation functions (`SUM`, `COUNT`, `AVG`, etc.)
+* Data grouping with `GROUP BY`
+* Conditional filtering using `HAVING`
+* Table joins (`INNER JOIN`, `LEFT JOIN`, etc.)
+* Subqueries
+* Basic data analysis using SQL
 
----
+## Project 1: Pizza Sales Analysis
 
-## 📘 Concepts Covered
+### Description
 
-- SQL Fundamentals (SELECT, DISTINCT, WHERE)
-- Sorting & Filtering (ORDER BY, LIMIT)
-- Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)
-- Grouping Data (GROUP BY, HAVING)
-- Joins (INNER, LEFT, RIGHT)
-- Subqueries
-- Constraints & Keys
-- Logical problem solving with SQL
-- Query optimization mindset
+This project analyzes a pizza sales dataset using SQL queries to extract insights related to sales performance and customer ordering patterns.
 
----
+### Dataset
 
-## 🧩 SQL Challenges
+The dataset includes information such as:
 
-This repository includes multiple SQL challenges designed to improve analytical and logical thinking:
-- Basic SQL challenges
-- Intermediate query challenges
-- Advanced relational queries
-- Full **21-Day SQL Challenge** for consistency
+* Order details
+* Pizza types and categories
+* Quantity sold
+* Revenue generated
+* Order timestamps
 
-Each challenge focuses on **thinking like a data analyst**, not just writing syntax.
+### Objectives
 
----
+The analysis focuses on:
 
-## 🛠️ Tools & Technologies
+* Calculating total revenue
+* Identifying top-selling pizzas
+* Analyzing peak ordering hours
+* Understanding category-level performance
+* Evaluating overall sales trends
 
-- MySQL / SQL-compatible RDBMS
-- MySQL Workbench / VS Code / phpMyAdmin
-- Git & GitHub for version control
+### Files
 
----
+* `Mini project.sql` – SQL queries used for the analysis
+* `mini_project.xlsx` – Dataset used for the project
 
-## ▶️ How to Use This Repository
+## Project 2: SQL Detective Challenge – Who Killed the CEO?
 
-1. Clone the repository:
-   git clone <repository-url>
+### Description
 
-2. Open any `.sql` file in your SQL editor
-3. Execute queries step by step
-4. Modify queries to explore variations and edge cases
+This project is a SQL-based investigative challenge where queries are used to analyze multiple tables and uncover clues related to a fictional crime scenario.
 
----
+### Objective
 
-## 🎯 Purpose & Learning Outcomes
+The goal is to identify the culprit behind the CEO's murder by:
 
-- Build a strong foundation in SQL
-- Improve query-writing confidence
-- Prepare for technical interviews and exams
-- Develop problem-solving skills for data roles
-- Maintain consistency through daily SQL practice
+* Investigating multiple datasets
+* Filtering and narrowing down suspects
+* Linking clues across tables using joins
+* Applying logical reasoning through SQL queries
 
----
+### File
 
-## 👤 Author
+* `MysteryWhoKilledCEO.sql`
 
-Girish Sabale  
-BCA Student | Data Analytics & SQL Enthusiast
+## Tools Used
 
----
+* SQL
+* Microsoft Excel
 
-## 📌 Notes
+## Outcome
 
-- File names represent daily learning progress
-- Queries are written for learning and clarity
-- Code quality improves as skills grow
-- Feedback and suggestions are welcome
-
----
-
-⭐ If you find this repository useful, consider giving it a star!
+This challenge helped strengthen my understanding of SQL querying, data exploration, and analytical thinking. The exercises and projects provided practical exposure to working with structured datasets and solving analytical problems using SQL.
